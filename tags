@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/6f7654b9/
+Background information	README.md	/^Background information$/;"	s
+BaseCalss	test\\color.cpp	/^class BaseCalss:$/;"	c	file:
+Class	test\\color2.cpp	/^    Class(T val, typename std::enable_if<std::is_floating_point<T>::value, T>::type* = 0)$/;"	f	class:Class	file:
+Class	test\\color2.cpp	/^    Class(int val): value(val) {$/;"	f	class:Class	file:
+Class	test\\color2.cpp	/^class Class {$/;"	c	file:
+Function	test\\color2.cpp	/^void Class::Function(double variable) {$/;"	f	class:Class	typeref:class:Class void
+Git submodule + Pathogen	README.md	/^#### Git submodule + Pathogen$/;"	t
+HiLink	after\\syntax\\cpp.vim	/^    command -nargs=+ HiLink hi def link <args>$/;"	c
+HiLink	after\\syntax\\cpp.vim	/^    command -nargs=+ HiLink hi link <args>$/;"	c
+Installation instructions	README.md	/^Installation instructions$/;"	s
+Issues	README.md	/^Issues$/;"	s
+Manual installation	README.md	/^#### Manual installation$/;"	t
+Optional features	README.md	/^Optional features$/;"	s
+Vundle	README.md	/^#### Vundle$/;"	t
+aClass	test\\color.cpp	/^Aclass<T> aClass = bClass->getThing();$/;"	v	typeref:typename:Aclass<T>
+b	test\\color2.cpp	/^uint32_t b = static_cast<uint8_t>(a);$/;"	v	typeref:typename:uint32_t
+did_cpp_syntax_inits	after\\syntax\\cpp.vim	/^    let did_cpp_syntax_inits = 1$/;"	v
+func	test\\color2.cpp	/^void func<std::map<std::string, std::string<double>>>() {$/;"	f	typeref:typename:void
+i	test\\color.cpp	/^for( int i=0; i<12; i++ )$/;"	v	typeref:typename:int
+j	test\\color2.cpp	/^char j = reinterpret_cast<char>(k);$/;"	v	typeref:typename:char
+operator <	test\\color.cpp	/^bool operator<( int a , int b)$/;"	f	typeref:typename:bool
+operator <	test\\color2.cpp	/^bool operator<(const ConnectionString& other) const {$/;"	f	typeref:typename:bool
+s:needs_cppstructure_match	after\\syntax\\cpp.vim	/^	let s:needs_cppstructure_match += 1$/;"	v
+s:needs_cppstructure_match	after\\syntax\\cpp.vim	/^	let s:needs_cppstructure_match += 2$/;"	v
+s:needs_cppstructure_match	after\\syntax\\cpp.vim	/^let s:needs_cppstructure_match = 0$/;"	v
+tmp	test\\color.cpp	/^bool tmp = a < b && b > c;$/;"	v	typeref:typename:bool
+vim.cpp - additional vim c++ syntax highlighting	README.md	/^vim.cpp - additional vim c++ syntax highlighting$/;"	s
